@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  background: #fbe4ec;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  background: #fff5f8;
+  width: 400px;
+  border: 6px solid #d47a9c;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header {
+  background: #e8a1bc;
+  text-align: center;
+  padding: 15px 0 40px 0;
+  position: relative;
+}
+
+.header h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #f4b6c2;
+  object-fit: cover;
+  position: relative;
+  top: 20px;
+}
+
+.content {
+  padding: 15px 20px 20px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: #b85c7d;
+  font-weight: 600;
+}
+
+.student-info {
+  text-align: left;
+  display: inline-block;
+  margin: 5px 0 15px 0;
+  color: #333;
+}
+
+.student-info p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.skills {
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.skills li {
+  font-size: 14px;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+th, td {
+  border: 1px solid #e0a8bc;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+th {
+  background: #f4c9d8;
+  color: #7a3652;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+form input, form textarea {
+  padding: 6px;
+  border: 1px solid #e0a8bc;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background: #e8a1bc;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  align-self: center;
+}
+
+button:hover {
+  background: #d47a9c;
+}
+
+.footer-link {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footer-link a {
+  color: #b85c7d;
+  text-decoration: underline;
+}

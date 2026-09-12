@@ -33,13 +33,13 @@ body {
 }
 
 .profile-pic {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 3px solid #f4b6c2;
   object-fit: cover;
   position: relative;
-  top: 20px;
+  top: 40px;
 }
 
 .content {
